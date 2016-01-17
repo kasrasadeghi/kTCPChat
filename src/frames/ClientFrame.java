@@ -6,12 +6,17 @@
 package frames;
 
 import javax.swing.JFrame;
+import javax.swing.JButton;
 /**
  *
  * @author Sarah M
  */
 public class ClientFrame extends JFrame {
+    public static JButton disconnect, connect, reload;
+    
     public ClientFrame() {
         super("Client");
+        
+        
     }
 }

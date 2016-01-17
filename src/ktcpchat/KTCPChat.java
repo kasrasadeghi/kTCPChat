@@ -27,10 +27,7 @@ public class KTCPChat{
         //maybe handle resolutions or something?
         currentState = SetupState.instance();
         currentState.enter();
-    }
-    
-    public static void update() {
-        currentState.execute();
+        System.out.println("end");
     }
     
     public static void changeState(State nextState) {
